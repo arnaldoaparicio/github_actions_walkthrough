@@ -58,6 +58,10 @@ development:
 test:
   <<: *default
   database: github_actions_walkthrough_test
+  host: localhost
+  username: postgres
+  password: postgres
+
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
